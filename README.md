@@ -168,10 +168,6 @@ Computers in Biology and Medicine, 109, 218-225.
 
 MIT License - Voir [LICENSE](LICENSE) pour plus de détails.
 
-## Contact
-
-**Email :** [votre.email@enset-media.ac.ma]  
-**GitHub :** [@votre-username](https://github.com/votre-username)
 
 ---
 
