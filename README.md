@@ -88,6 +88,27 @@ model.eval()
 original, pred_mask = predict_image('image.tif', 'best_model.pth')
 visualize(original, pred_mask)
 ```
+## Résultats de l'Entraînement
+
+L'entraînement a été réalisé sur 30 époques avec les résultats suivants :
+
+- Train Loss finale : 0.13 (excellente convergence)
+- Val Loss : oscillations observées après l'époque 10
+- Diagnostic : Léger overfitting détecté
+
+### Analyse
+
+Le modèle apprend efficacement sur les données d'entraînement comme
+le montre la courbe bleue descendante. Cependant, l'instabilité de 
+la validation loss suggère un surapprentissage.
+
+### Améliorations Futures
+
+1. Data augmentation (rotation, flip, translation)
+2. Early stopping à l'époque optimale (~époque 5-10)
+3. Augmentation du dataset de validation
+4. Ajout de dropout pour la régularisation
+
 
 ## Architecture
 
