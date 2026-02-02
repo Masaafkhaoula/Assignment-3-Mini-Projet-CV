@@ -1,0 +1,58 @@
+# Modèles entraînés
+*.pth
+*.pt
+*.h5
+*.pkl
+*.ckpt
+checkpoints/
+
+# Dataset
+data/
+datasets/
+*.tif
+*.tiff
+
+# Résultats (sauf training_history.png)
+*.jpg
+*.jpeg
+*.gif
+outputs/
+results/
+prediction.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environnements
+venv/
+env/
+.venv
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Exception: garder training_history.png
+!training_history.png
